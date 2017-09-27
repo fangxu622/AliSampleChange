@@ -1,4 +1,4 @@
-##
+
 ##项目流程图
 
 https://www.processon.com/view/link/59c63065e4b0ef561373f656
@@ -18,7 +18,7 @@ shpTotif.py 将变化矢量栅格化，得到二值图像 ，0 非变化，255�
 shpcuraster.py 输入变化渔网shapefile 文件，与变化矢量的栅格化图像，,前后期瓦片url，
 输出 变化的label 图片，以及对应的前后期瓦片，非变化 前后期瓦片
 
-
+sparse_file.py 对文件进行随机抽稀， 10000对图片 抽稀出来5000对之类的
 
 
 最后顺便写一下.gitignore 规则
